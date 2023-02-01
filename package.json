@@ -6,7 +6,8 @@
   "scripts": {
     "install": "npm --prefix ./ts-src install ./ts-src",
     "compile": "npx tsc --esModuleInterop ./ts-src/*.ts",
-    "create": "npx ts-node ts-src/createData.ts"
+    "create": "npx ts-node ts-src/createData.ts",
+    "delete": "rm ts-src/*.js"
   },
   "author": "eggdragon",
   "dependencies": {
