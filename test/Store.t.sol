@@ -46,9 +46,8 @@ contract StoreTest is Test {
 
     function testCheckStore(address addr, uint256 amount) public {
         storeContract.balanceUp(addr, amount);
-        bytes32 balanceSlot = keccak256(abi.encodePacked(uint256(uint160(addr)), uint256(40)));
+        bytes32 balanceSlot = keccak256(abi.encodePacked(uint256(uint160(addr)), uint256(3)));
         uint256 balance = uint256(vm.load(address(storeContract), balanceSlot));
-
         assertEq(balance, storeContract.balanceOf(addr));
     }
 }
