@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "npm --prefix ./ts-src install ./ts-src",
+    "install": "npm --prefix ./ts-src install ./ts-src && npm --prefix ./counter-app install ./counter-app",
     "compile": "npx tsc --esModuleInterop ./ts-src/*.ts",
     "create": "npx ts-node ts-src/createData.ts",
-    "delete": "rm ts-src/*.js"
+    "delete": "rm ts-src/*.js",
+    "start": "npm --prefix ./counter-app start ./counter-app"
   },
   "author": "eggdragon",
   "dependencies": {
