@@ -12,12 +12,12 @@ contract StructStorageAssembly {
     mapping(uint256 => StructStorage) public mappingStructStorages;
 
     /*
-    Slot α + 1
+    Slot α + 0
     | uint64   | uint64   | uint128  |
     | storageJ | storageI | storageH |
     | 00...030 | 00...020 | 00...010 |
 
-    Slot α + 2
+    Slot α + 1
     | uint64   |
     | storageK |
     | 00...030 |

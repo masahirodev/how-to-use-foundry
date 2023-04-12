@@ -2,9 +2,9 @@
 pragma solidity ^0.8.17;
 
 contract StorageAssembly {
-    uint256 public storageA = 1;
-    uint256 public storageB = 2;
-    uint256 public storageC = 3;
+    uint256 public storageA = 1; // slot0
+    uint256 public storageB = 2; // slot1
+    uint256 public storageC = 3; // slot2
 
     function getSlotStorageA() public pure returns (uint256 _slot) {
         assembly {
