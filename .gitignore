@@ -15,4 +15,7 @@ docs/
 
 node_modules
 *js
-data/
+/data/*
+!/data/datas.txt
+!/data/line.txt
+!/data/example.json

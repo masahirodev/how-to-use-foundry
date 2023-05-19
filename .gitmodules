@@ -1,27 +1,34 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+	branch = v1.3.0
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+	branch = v4.8.1
+	branch = v4.8.2
 [submodule "lib/murky"]
 	path = lib/murky
 	url = https://github.com/dmfxyz/murky
 [submodule "lib/solady"]
 	path = lib/solady
 	url = https://github.com/vectorized/solady
+	branch = v0.0.86
 [submodule "lib/ds-test"]
 	path = lib/ds-test
 	url = https://github.com/dapphub/ds-test
 [submodule "lib/ERC721A"]
 	path = lib/ERC721A
 	url = https://github.com/chiru-labs/ERC721A
+	branch = v4.2.3
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/transmissions11/solmate
 [submodule "lib/contracts"]
 	path = lib/contracts
 	url = https://github.com/thirdweb-dev/contracts
+	branch = v3.4.5
 [submodule "lib/operator-filter-registry"]
 	path = lib/operator-filter-registry
 	url = https://github.com/ProjectOpenSea/operator-filter-registry
+	branch = v1.4.1
